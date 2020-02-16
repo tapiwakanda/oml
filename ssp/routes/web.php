@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/claims', 'claimsFormController@index');
+Route::post('/claims', 'claimsFormController@save');
+
+Route::get('/feedback', 'feedBackController@index');
+
+Route::post('/feedback', 'feedBackController@save');
+
+
+Route::get('/print', function () {
+    return view('print');
+});
+
+Route::get('/printFeedBack', function () {
+    return view('printFeedBack');
+});
+
+/* Route::get('/claims', function () {
+    return view('claims');
+}); */
