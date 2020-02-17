@@ -1,5 +1,6 @@
 @extends('layout')
 @section('content')
+
     
 <div class="container claimContainer">
 
@@ -67,7 +68,7 @@
         
         <div class="form-group">
             {{Form::label('agreement', 'Agreement')}}
-            {{Form::checkbox('agreement', 'Yes');}}  
+            {{Form::checkbox('agreement', 'Yes')}}  
         </div>
 
         @csrf

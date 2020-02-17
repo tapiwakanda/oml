@@ -8,6 +8,9 @@
     <title>Old Mutual</title>
 </head>
 <body>
+    <div class="container branding">
+        <img src="{{asset('images/vignette.png')}}">
+    </div>
     @include('messages')
     @yield('content')
 </body>

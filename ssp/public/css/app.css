@@ -2,27 +2,25 @@
     max-width: 42rem;
 }
 
-.home{
-    background-color: aliceblue;
-    
-}
 
 .home h1{
     text-align: center;
     color:#8DC63F;
-    font-size: 4vw;
+    font-size: 3vw;
+    padding-top: 2rem;
 }
-nav img{
-    margin-top: -1rem;
-    margin-left: 5rem;
+.home p{
+    font-size: 2vw;
+    text-align: center;
+    color: #333;
 }
 
 /** Card Styles **/
 a{
-    color: white;
+    color: #8DC63F;
 }
 a:hover{
-    color: white;
+    color: white ;
     text-decoration: none;
 }
 
@@ -55,15 +53,19 @@ a:hover{
   
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     border: none;
+    border-radius: 4px;
     padding: 3rem;
     font-size: 2vw;
     text-align: center;
+    /* background-image: linear-gradient(to right, #009677, #8DC63F); */
+    color: #8DC63F;
+  }
+  .card:hover{
     background-image: linear-gradient(to right, #009677, #8DC63F);
     color: white;
   }
-  
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
     .column {
@@ -76,4 +78,8 @@ a:hover{
   button{
     background-image: linear-gradient(to right, #009677, #8DC63F);
     color: white;
+  }
+
+  .branding img{
+      max-width: 100%;
   }

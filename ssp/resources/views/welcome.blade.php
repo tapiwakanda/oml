@@ -1,10 +1,10 @@
 @extends('layout')
 @section('content')   
     <div class="container-fluid home">
-        <nav class="navbar">
-            <img class="logo" src="{{asset('images/logo.png')}}">
-        </nav>
-        <h1>Hi, how can we help you?</h1>
+        <h1>Welcome to the Old Mutual Self Service Portal</h1>
+        <p class="paragraph home-text">
+            Please Select a service you want to complete below.
+        </p>
         <div class="container-fluid options">
             <div class="row">
                 <div class="column">
