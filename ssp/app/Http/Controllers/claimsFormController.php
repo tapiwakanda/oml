@@ -15,6 +15,11 @@ class claimsFormController extends Controller
 
     public function save(Request $request){
 
+        $validatedData = $request->validate([
+            'fullName' => 'required|max:255',
+            'policyNumber' => 'required',
+        ]);
+
         $claim = new Claim;
 
         //get http request and store in an array

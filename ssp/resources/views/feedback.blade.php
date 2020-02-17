@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
 <div class="container claimContainer">
-
+    <h2>Submit your Feed back Details Below</h2>
     {!! Form::open(['action' => 'feedBackController@save', 'method'=> 'POST']) !!}
         <div class="form-group">
             {{Form::label('date', 'Date')}}

@@ -2,8 +2,8 @@
 @section('content')
 
     
-<div class="container claimContainer">
-
+<div class="container feedBackContainer">
+    <h1>Submit Your Details Below</h1>
     {!! Form::open(['action' => 'claimsFormController@save', 'method'=> 'POST']) !!}
         <div class="form-group">
             {{Form::label('fullName', 'Full Name')}}
