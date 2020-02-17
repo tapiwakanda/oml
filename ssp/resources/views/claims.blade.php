@@ -2,7 +2,7 @@
 @section('content')
 
     
-<div class="container feedBackContainer">
+<div class="container claimContainer">
     <h1>Submit Your Details Below</h1>
     {!! Form::open(['action' => 'claimsFormController@save', 'method'=> 'POST']) !!}
         <div class="form-group">

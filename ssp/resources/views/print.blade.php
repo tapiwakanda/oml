@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
-    <div class="print-section">
-
+    <div class="container print-section">
+        <h1>Below are your details you submitted to us</h1>
         <table class="table table-striped">
             <thead>
               <tr>
